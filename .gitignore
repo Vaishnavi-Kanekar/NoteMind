@@ -1,0 +1,65 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.python-version
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Node dependencies
+node_modules/
+
+# React build files
+build/
+dist/
+
+# Django files
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+
+# Uploaded media files
+backend/media/*
+!backend/media/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python cache and test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend environment variables
+frontend/frontend-share/.env
+frontend/frontend-share/.env.*
+!frontend/frontend-share/.env.example
+
+# Backend environment variables
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Uploaded files and local artifacts
+backend/media/
+backend/staticfiles/
+
+# Editor and temporary files
+*.swp
+*.tmp
